@@ -1,0 +1,279 @@
+
+@import url(font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #151515;
+}
+
+.nav{
+    width: 1600px;
+    height: 65px;
+    background: #282828;
+    padding-left: 245px;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 1107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1107px;
+}
+
+.nav__content-list{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.search_logo{
+    margin-right: 25px;
+}
+
+.nav__content-items{
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a{ 
+    color: #FFFFFF;
+}
+
+.header{
+    background: url(../img/Header\ bg.png);
+    height: 700px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__tittle{
+    color: white;
+    font-family: 'ProstoOne-Regular';
+    font-size: 100px;
+    line-height: 75px;
+}
+
+.button{
+    margin-top: 35px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.link__logo{
+    margin-left: 11px;
+    width: 16px;
+    height: 15px;
+    padding-bottom: 2px;
+}
+
+.link__text{
+    color: black;
+    font-family: 'Montserrat-Medium';
+}
+
+.main{
+    width: 1600px;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    width: 1600px;
+    height: 335px;
+    margin-top: 30px;
+}
+
+.section__content-right{
+    font-family: 'Montserrat-Medium';
+    color: white;
+    font-size: 22px;
+    line-height: 27px;
+    width: 538px;
+    height: 135px;
+}
+
+.section_second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    width: 1600px;
+    height: 408px;
+    margin-top: 50px;
+}
+
+.section__content-left-second{
+    font-family: 'Montserrat-Medium';
+    color: white;
+    font-size: 22px;
+    line-height: 27px;
+    width: 538px;
+    height: 135px;
+}
+
+.section_third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    width: 1600px;
+    height: 408px;
+    margin: 50px 0 80px 0;
+}
+
+.section__content-right-third{
+    font-family: 'Montserrat-Bold';
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    width: 333px;
+    height: 120px;
+    text-align: right;
+}
+
+.section__content-left-third{
+    font-family: 'Montserrat-Bold';
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    width: 333px;
+    height: 144px;
+}
+
+.box{
+    width: 61px;
+    height: 1px;
+    border: white 1px solid;
+}
+
+.cards{
+    margin: 0 0 55px 0;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 255px;
+    height: 312px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__tittle{
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.card__img{
+    width: 127.5px;
+    height: 167px;
+    margin: 10px 0;
+}
+
+.card__text{
+    font-family: "Montserrat-regular";
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button__card{
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    margin: 20px 0 15px 0;
+}
+
+.button__card-text{
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.containers{
+    width: 1107px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer{
+    width: 1600px;
+    height: 215px;
+    background: #282828;
+    padding-left: 245px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__content-items{
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 55px;
+    align-items: center;
+}
+
+.footer__content-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content-item{
+    display: flex;
+    column-gap: 30px;
+}
+
+.visa_logo{
+    margin-right: 25px;
+}
